@@ -1,0 +1,15 @@
+{
+    "Zara": {
+      "sustainability": "Low",
+      "materials": "Synthetic, Cotton"
+    },
+    "Patagonia": {
+      "sustainability": "High",
+      "materials": "Recycled Polyester, Organic Cotton"
+    },
+    "H&M": {
+      "sustainability": "Medium",
+      "materials": "Cotton, Recycled Fibers"
+    }
+  }
+  

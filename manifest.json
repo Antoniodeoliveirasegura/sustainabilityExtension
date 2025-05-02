@@ -1,0 +1,27 @@
+{
+    "manifest_version": 3,
+    "name": "Sustainability Checker",
+    "version": "1.5",
+    "description": "View sustainability ratings for clothing brands from Good On You.",
+    "permissions": ["activeTab", "storage"],
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "icons/iconTemplate.jpg",
+        "48": "icons/iconTemplate.jpg",
+        "128": "icons/iconTemplate.jpg"
+      }
+    },
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": ["content.js"]
+      }
+    ],
+    "icons": {
+      "16": "icons/iconTemplate.jpg",
+      "48": "icons/iconTemplate.jpg",
+      "128": "icons/iconTemplate.jpg"
+    }
+  }
+  
